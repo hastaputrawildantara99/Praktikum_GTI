@@ -3,6 +3,7 @@
 void SegiEmpat(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
+    glLoadIdentity();
     glTranslatef(-0.50, 0.50, 0);
     glColor3f(1.0f, 0.0f, 0.0f);
     glRectf(-0.18, 0.18, 0.18, -0.18);
@@ -20,3 +21,4 @@ int main(int argc, char* argv[])
     glutMainLoop();
     return 0;
 }
+
